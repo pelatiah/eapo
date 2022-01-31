@@ -1,0 +1,579 @@
+body {
+    margin: 0% auto;
+    color: white;
+    background-image: url('../images/bg.png');
+}
+
+
+.wrapper.bgded.overlay {
+    z-index: -1;
+}
+
+/* nav bar styling start */
+.logo_quarter{
+    width: 23%;
+}
+div#logo {
+    margin: auto;
+}
+.my_nav {
+    font-size: 22px;
+}
+
+.nav-item {
+    padding-left: 3px;
+}
+
+.nav-item:hover {
+    color: #215863;
+}
+
+i.counter {
+    background: #dc03ea;
+    color: white;
+    position: absolute;
+    padding: 0px 7px 0px 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    z-index: 0;
+}
+/* nav bar styling end */
+/* The root */
+.p-nested-dropdowns {
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+
+    /* Reset list styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 10px;
+}
+
+.p-nested-dropdowns li {
+    /* Spacing */
+    padding: 8px;
+
+    /* Used to position the sub dropdown */
+    position: relative;
+    width: auto;
+}
+
+.alert {
+    z-index: -1;
+}
+
+.items-nav{
+    width: 100%;
+}
+
+.cart-item{
+}
+
+
+.p-nested-dropdowns-1{
+    border: none !important;
+}
+
+.p-nested-dropdowns-2{
+    border: none !important;
+}
+
+.p-nested-dropdowns li:hover {
+    background: #eeeeee !important;
+}
+
+.p-nested-dropdowns-2 li div {
+    text-align: right;
+}
+
+/* .p-nested-dropdowns-2:hover{
+    background: none !important;
+} */
+
+.p-nested-dropdowns-2 li{
+    width: 200px;
+}
+
+/* The sub dropdown */
+.p-nested-dropdowns ul {
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    
+    /* Hidden by default */
+    display: none;
+
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+ 
+    background: white;
+}
+
+/* The second level sub dropdown */
+.p-nested-dropdowns ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Change background color of list item when being hovered */
+.p-nested-dropdowns li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Show the direct sub dropdown when hovering the list item */
+.p-nested-dropdowns li:hover > ul {
+    display: block;
+    z-index: 1;
+}
+
+/* footer style */
+
+
+.one_quarter{
+    width: 30%;
+}
+
+/* footer style end  */
+
+
+button#dropdownMenuButton {
+    width: 100%;
+    padding: 19px;
+    font-size: 13px;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+}
+
+.costum {
+    width: 100%;
+    padding: 19px;
+    font-size: 13px;
+    border: 1px solid #215863;
+    background: #215863;
+}
+
+.costum:hover {
+    background: #142427;
+}
+
+/* slide style */
+.carousel-caption{
+    top: 37%;
+    right: 64%;
+    font-size: 30px;
+}
+/* slide style */
+
+/* footer style */
+
+
+.one_quarter{
+    width: 30%;
+}
+
+.service {
+    box-shadow: 0px 0px 13px -3px #acafb1;
+    padding: 23px;
+    text-align: center;
+}
+.service a.btn{
+
+    border: 0.6px solid ;
+}
+.service:hover {
+    background-color: #eaeaea;
+}
+
+.col-md-3 a.btn:hover{
+
+    background-color: #215863;
+    color: white;
+}
+
+
+/* cart */
+.cart table {
+    font-size: 20px;
+}
+th {
+    color: black;
+}
+
+.checkout{
+    float: right;
+    padding: 15px;
+}
+div#use_multi,
+div#use_multi_3,
+div#use_multi_4,
+div#use_multi_5,
+div#use_multi_6,
+div#use_multi_7,
+div#use_multi_8,
+div#use_multi_9,
+div#use_multi_10{
+    display: NONE;
+    margin-top: 20px;
+}
+.shoping{
+    padding: 15px;
+}
+.form-check{
+    padding-left: 0px;
+}
+
+.Empty,
+.order-not-exists {
+    text-align: center;
+    padding: 99px;
+    color: #215863;
+    background: #eeeeee;
+    border: 0.3px solid;
+    border-radius: 10px;
+}
+.Empty h5,
+.order-not-exists h5 {
+    font-size: 30px;
+
+}
+
+/* checkout */
+.checkout-father{
+    font-size: 18px;
+}
+.checkout-father select,
+.edit-info select{
+    padding: 6px;
+
+}
+input#use_default,
+input#use_multiple_addresses,
+input#use_multiple_addresses_2,
+input#use_multiple_addresses_3,
+input#use_multiple_addresses_4,
+input#use_multiple_addresses_5,
+input#use_multiple_addresses_6,
+input#use_multiple_addresses_7,
+input#use_multiple_addresses_8,
+input#use_multiple_addresses_9,
+input#use_multiple_addresses_10,
+input#dont_use_multiple_addresses,
+input#save-info {
+    display: inline;
+    margin: 10px;
+}
+
+
+
+/* order history */
+.orders {
+    font-size: 18px;
+}
+
+.order-h{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.edit-del{
+    width: 100%;
+}
+
+.edit-del .edit{
+    float: right;
+}
+
+/* regiser */
+
+.row.form-group{
+    padding-bottom: 12px;
+}
+
+.row.form-group input{
+    padding: 10px;
+}
+
+/* myorders */
+
+
+@media (max-width: 799px){ 
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .table .table-striped p{
+        font-size: 10px;
+    }
+    .p-nested-dropdowns-2 {
+        border: none !important;
+        position: absolute;
+        right: 9px;
+        width: 43px;
+    }
+    .p-nested-dropdowns-2 li:hover {
+        background:transparent !important;
+    }
+    .p-nested-dropdowns ul ul {
+        left: 0;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: antiquewhite;
+    }
+    ul.p-nested-dropdowns-2-ul {
+        position: absolute;
+        left: -161px;
+    }
+    .table>tbody {
+        vertical-align: inherit;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px){
+    .col-md-1 {
+        flex: 0 0 auto;
+        width: 5.9%;
+    }
+    
+    
+}
+
+
+/* cart */
+
+.Checkout-btn ,
+.continue-btn{
+    width: 100%;
+}
+
+
+/* profile style */
+
+
+.widget-author {
+    margin-bottom: 58px;
+  }
+  .author-card {
+    position: relative;
+    padding-bottom: 48px;
+    background-color: #fff;
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .09);
+  }
+  .author-card .author-card-cover {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .author-card .author-card-cover::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.5;
+  }
+  .author-card .author-card-cover > .btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 0 10px;
+  }
+  .author-card .author-card-profile {
+    display: table;
+    position: relative;
+    margin-top: -22px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    z-index: 5;
+  }
+  .author-card .author-card-profile .author-card-avatar, .author-card .author-card-profile .author-card-details {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .author-card .author-card-profile .author-card-avatar {
+    width: 85px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .15);
+    overflow: hidden;
+  }
+  .author-card .author-card-profile .author-card-avatar > img {
+    display: block;
+    width: 100%;
+  }
+  .author-card .author-card-profile .author-card-details {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  .author-card .author-card-profile .author-card-name {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .author-card .author-card-profile .author-card-position {
+    display: block;
+    color: #8c8c8c;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .author-card .author-card-info {
+    margin-bottom: 0;
+    padding: 0 25px;
+    font-size: 13px;
+  }
+  .author-card .author-card-social-bar-wrap {
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    width: 100%;
+  }
+  .author-card .author-card-social-bar-wrap .author-card-social-bar {
+    display: table;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 12px 20px 1px rgba(64, 64, 64, .11);
+  }
+  .btn-style-1.btn-white {
+      background-color: #fff;
+  }
+  .list-group-item i {
+      display: inline-block;
+      margin-top: -1px;
+      margin-right: 8px;
+      font-size: 1.2em;
+      vertical-align: middle;
+  }
+  .mr-1, .mx-1 {
+      margin-right: .25rem !important;
+  }
+  
+  .list-group-item.active:not(.disabled) {
+      border-color: #e7e7e7;
+      background: #fff;
+      color: #ac32e4;
+      cursor: default;
+      pointer-events: none;
+  }
+  .list-group-flush:last-child .list-group-item:last-child {
+      border-bottom: 0;
+  }
+  
+  .list-group-flush .list-group-item {
+      border-right: 0 !important;
+      border-left: 0 !important;
+  }
+  
+  .list-group-flush .list-group-item {
+      border-right: 0;
+      border-left: 0;
+      border-radius: 0;
+  }
+  .list-group-item.active {
+      z-index: 2;
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+  }
+  .list-group-item:last-child {
+      margin-bottom: 0;
+      border-bottom-right-radius: .25rem;
+      border-bottom-left-radius: .25rem;
+  }
+  a.list-group-item, .list-group-item-action {
+      color: #404040;
+      font-weight: 600;
+  }
+  .list-group-item {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      border: 1px solid #e7e7e7 !important;
+      border-radius: 0 !important;
+      color: #404040;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+  .list-group-item {
+      position: relative;
+      display: block;
+      padding: .75rem 1.25rem;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 1px solid rgba(0,0,0,0.125);
+  }
+  .list-group-item.active:not(.disabled)::before {
+      background-color: #ac32e4;
+  }
+  
+  .list-group-item::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background-color: transparent;
+      content: '';
+  }
+  
+  #profile_form label{
+      padding-top: 15px;
+  }
+  
+  #profile_form input.update-btn.btn {
+      margin-top: 15px;
+      background-color: #067dd4;
+      color: white;
+      font-size: 17px;
+  }
+  /* profile style */
+  
+
+
+  .add-location div{
+      margin-bottom: 15px;
+  }
+
+  .add-location input,
+  .add-location textarea{
+      width: 100%;
+  }
+  input#id_is_default {
+    width: auto;
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    }
+
+a.control {
+    float: right;
+}
